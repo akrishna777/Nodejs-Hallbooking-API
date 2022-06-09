@@ -6,10 +6,10 @@ const app = express()
 app.use(express.json())
 mongo.connect()
 
-// app.use('/', (req, res, next) => {
-//   res.send('Welcome to Hall Booking API')
-//   next()
-// })
+app.use('/', (req, res, next) => {
+  res.send('Welcome to Hall Booking API')
+  next()
+})
 
 app.use('/rooms', RoomRouter)
 
