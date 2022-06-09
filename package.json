@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-hallbooking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongosh": "^1.5.0",
+    "nodemon": "^2.0.16"
+  }
+}
